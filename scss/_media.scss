@@ -1,0 +1,112 @@
+@media only screen and (min-device-width: 300px) and (max-device-width: 600px){
+  .container-fluid{
+    header{
+      nav{
+        white-space: pre-wrap;
+        font-size: 30px;
+        margin-top: 250px;
+        ul{
+          width: 100%;
+          text-align: center;
+          margin: 0;
+          padding: 0;
+          li{
+            width: 100%;
+          }
+          img{
+            height: 150px;
+            width: 150px;
+          }
+        }
+      }
+    }
+    main{
+      .main{
+        .first{
+          display: inline-block;
+          .images{
+            width: 100%;
+          }
+          .bottom-box{
+            width: 100%;
+            .bike{
+              height:auto;
+              img{
+                vertical-align: bottom;
+              }
+            }
+          }
+        }
+        .second{
+          display: inline-block;
+          .images{
+            width: 100%;
+            height: 960px;
+          }
+          .bottom-box{
+            width: 100%;
+            .seat{
+              height:auto;
+              img{
+                vertical-align: bottom;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-device-width: 600px){
+  .container-fluid{
+    header{
+      nav{
+        margin-top: 50px;
+        ul{
+          padding-right: 40px;
+          text-align: center;
+          li{
+            padding: 15px;
+          }
+        }
+      }
+    }
+    main{
+      .main{
+        .first{
+          height: 75vh;
+          display: flex;
+          .images{
+              width: 70%;
+          }
+          .bottom-box{
+            width: 30%;
+            .bike{
+              height: 30%;
+              img{
+                height: 100%;
+              }
+            }
+          }
+        }
+        .second{
+          height: 75vh;
+          display: flex;
+          .images{
+            width: 70%;
+            height: 100%;
+          }
+          .bottom-box{
+            width: 30%;
+            .seat{
+              height: 30%;
+              img{
+                height: 100%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
